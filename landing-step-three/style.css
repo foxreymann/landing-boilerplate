@@ -1,1 +1,38 @@
 /* Write some CSS below */
+/*grey #404042 */
+/*blue #1A48E3 */
+/*a hover #CE2FAE*/
+/*btn-blue hover #0D1EC6 */
+
+body {
+  background: rgb(240, 240, 240);
+  color: #404042;
+  font-family: Overpass;
+}
+
+h1 {
+  font-family: Chivo;
+  font-size: 50px;
+  color: #f77754;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #1A48E3;
+  font-weight: bold;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
