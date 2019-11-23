@@ -3,27 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Le Wagon - Web Development Sprint</title>
-  <link href="https://fonts.googleapis.com/css?family=Odibee+Sans|Rajdhani&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Banner section -->
-  <h1>Change your life, learn to code</h1>
-  <p>Le Wagon brings technical skills to creative people</p>
-  <a href=http://lewagon.com>Apply now!</a>
+  <div class="banner">
+    <h1>Change your life, learn to code</h1>
+    <p>Le Wagon brings technical skills to creative people</p>
+    <a class="btn" href=http://lewagon.com>Apply now!</a>
+  </div>
 
   <!-- Cards section -->
-  <h2>Some of our campuses</h2>
-  <img src="images/paris.jpg" />
-  <h3>Paris</h3>
-  <img src="images/london.jpg" />
-  <h3>London</h3>
-  <img src="images/shanghai.jpg" />
-  <h3>Shanghai</h3>
+  <div class="container">
+    <h2>Some of our campuses</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/london.jpg" alt="">
+        <h3>London</h3>
+      </div>
+
+      <div class="card">
+        <img src="images/shanghai.jpg" alt="">
+        <h3>Shanghai</h3>
+      </div>
+
+      <div class="card">
+        <img src="images/paris.jpg" alt="">
+        <h3>Paris</h3>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer section -->
-  <p>Website made with ❤️ at Le Wagon</p>
+  <div class="footer">
+    <div class="container">
+      <p>Website made with ❤️ at Le Wagon</p>
+    </div>
+  </div>
 
 </body>
 </html>
