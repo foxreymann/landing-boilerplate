@@ -3,3 +3,36 @@
 /*blue #1A48E3 */
 /*a hover #CE2FAE*/
 /*btn-blue hover #0D1EC6 */
+/*
+font-family: 'Odibee Sans', cursive;
+*/
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Rajdhani', sans-serif;
+  color: #303032;
+}
+
+h1 {
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: 8px;
+  font-size: 50px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #1A48E3;
+  font-weight: bold;
+  transition: 0.6s;
+}
+
+a:hover {
+  color: #0D1EC6;
+  text-decoration: underline;
+}
